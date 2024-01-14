@@ -13,7 +13,7 @@ public class Assignment2Application {
 
 		int numberOfGuesses = 0;
 		int maxGuesses = 5;
-		System.out.println("random number is: " + randomNumber);
+		// System.out.println("random number is: " + randomNumber);
 		while (numberOfGuesses < maxGuesses) {
 			System.out.print("Pick a number between 1 and 100: ");
 			int userGuess = getUserInput(scanner);
